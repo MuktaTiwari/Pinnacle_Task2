@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  
+  .container {
+    text-align: left;
+   
+  }
+  
+  .container img {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    /* background-color: #333; */
+    /* display: inline-block; */
+    width: 116px;
+    height: 80px;
+    /* line-height: 115px; */
+    text-align: top;
+    /* background-color: transparent; */
+    margin-top: -4px;
+    /* margin-bottom: -7px; */
+  }
+  /* Header */
+  
+  header {
+    background: black;
+    color: #fff;
+    /* padding: 10px 0; */
+    height: 76px;
+  }
+  
+  header nav {
+    float: right;
+  }
+  
+  header nav .nav-links {
+    list-style: none;
+   
+  }
+  
+  header nav .nav-links li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  header nav .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    transition: background 0.3s;
+  }
+  
+  header nav .nav-links a:hover, 
+  header nav .nav-links a.active {
+    background: #04AA6D;
+    border-radius: 5px;
+  }
+  
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #04AA6D;
+  }
+  
+
+  .container1 {
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  
